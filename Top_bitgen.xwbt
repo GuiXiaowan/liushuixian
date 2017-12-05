@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\subjects\2\cpu\scCPU\scCPU\Top.ncd
+OUTFILE=E:\subjects\2\cpu\scCPU\scCPU\Top.bit
+FAMILY=Kintex7
+PART=xc7k325t-1ffg676
+WORKINGDIR=E:\subjects\2\cpu\scCPU\scCPU
+LICENSE=ISE
+USER_INFO=__0_0_0

@@ -1,0 +1,14 @@
+[Inputs]
+clk200P
+clk200N
+buzzer
+=s[15:0]=
+[Outputs]
+SEGCLK
+SEGCLR
+SEGDT
+SEGEN
+[BiDir]
+[ATTRIBUTES]
+VeriModel Top
+

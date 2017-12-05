@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+Top instance_name (
+    .clk200P(clk200P), 
+    .clk200N(clk200N), 
+    .s(s), 
+    .buzzer(buzzer), 
+    .SEGCLK(SEGCLK), 
+    .SEGCLR(SEGCLR), 
+    .SEGDT(SEGDT), 
+    .SEGEN(SEGEN)
+    );
+
+
