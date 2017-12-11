@@ -98,8 +98,10 @@ module Top(
 	       RegDst,Jump,ALUsrc,MemtoReg,MemRead,MemWrite,Branch,RegWrite,ALUop[1:0],PCout[31:0],Aout[31:0],Bout[31:0],imm[31:0],rd[4:0],rt[4:0],oFuc[5:0]);
 	 EX EX(clkd,RegDst,Jump,ALUsrc,MemtoReg,MemRead,MemWrite,Branch,RegWrite,ALUop[1:0],oFuc,PCout,Aout[31:0],Bout[31:0],imm[31:0],rd[4:0],rt[4:0],
 		    oMemtoReg,oMemWrite,oMemrRead,oBranch,oRegWrite,opcplusimediate[31:0],ozero,ooALU[31:0],oBdat[31:0],oregW[4:0]);
+	 //ex给ctr它的regwrite和rd
 	 MEM MEM(clkd[31:0],oRegWrite,oMemtoReg,oMemWrite,oMemrRead,oBranch,opcplusimediate[31:0],ozero,ooALU[31:0],oBdat[31:0],oregW[4:0],
 			   WriteRegout,MemToRegout,spc,pcplusimm[31:0],Wdat[31:0],oALUout[31:0],regWout[4:0]);
+	 //mem给ctr它的regwrite和rd
 	 WB WB(clkd,WriteRegout,MemToRegout,Wdat,oALUout,regWout,
 		    oWriteRegout,oregWout,Wdatout);
 	 

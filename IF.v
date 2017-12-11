@@ -47,6 +47,8 @@ module IF(
 	 //mux1_2_32bit pcselfinal(Jump, pcsel1, jaddr, InstruAddrin);
 	 //</pc change>
 	 //if instr==0 don't move
+	 //如果发现数据冲突 stall
+	 
 	 always @ (posedge clkd[3]) begin
 		//if (Instru == 32'b0) begin InstruAddr <= InstruAddr; end
 		//else begin  end

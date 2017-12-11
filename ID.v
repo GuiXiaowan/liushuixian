@@ -43,7 +43,8 @@ module ID(
 	//wire [31:0]oWriteRegout;
 	controlunit ctr(Instru[31:26],RegDst,Jump,ALUsrc,MemtoReg,MemRead,MemWrite,Branch,RegWrite,ALUop[1:0]);
 	RegFile RegFile(s[15:11], clkd[0], rst, Instru[25:21], Instru[20:16], Instru[15:11], Wdat, Adat, Bdat, oWriteRegout,showdat);
-	always @ (posedge clkd[3])begin
+	sctr stallctr();
+	always @ (posedge clkd)begin
 		PCout<=PC;
 		Aout<=Adat;
 		Bout<=Bdat;
