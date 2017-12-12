@@ -2,27 +2,28 @@ Command line:
    top_testhhh_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  55030
+     -socket  61350
 
-Wed Nov 29 15:12:06 2017
+Tue Dec 12 09:19:06 2017
 
 
- Elaboration Time: 0.09375 sec
+ Elaboration Time: 0.28125 sec
 
- Current Memory Usage: 860.029 Meg
+ Current Memory Usage: 893.178 Meg
 
  Total Signals          : 1200
  Total Nets             : 2891
  Total Signal Drivers   : 605
- Total Blocks           : 134
- Total Primitive Blocks : 101
+ Total Blocks           : 135
+ Total Primitive Blocks : 102
  Total Processes        : 644
  Total Traceable Variables  : 691
  Total Scalar Nets and Variables : 60042
+Total Line Count : 951
 
- Total Simulation Time: 0.421875 sec
+ Total Simulation Time: 0.5 sec
 
- Current Memory Usage: 860.029 Meg
+ Current Memory Usage: 735.891 Meg
 
-Wed Nov 29 15:12:22 2017
+Tue Dec 12 09:21:40 2017
 

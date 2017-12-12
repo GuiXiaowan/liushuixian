@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "E:/subjects/2/cpu/liushuixian/IF.v";
+static const char *ng0 = "//Mac/Home/Desktop/CA/exp/liushuixian/IF.v";
 static int ng1[] = {1, 0};
 static int ng2[] = {0, 0};
 static unsigned int ng3[] = {0U, 0U};
@@ -89,7 +89,7 @@ LAB2:    xsi_set_current_line(34, ng0);
 LAB1:    return;
 }
 
-static void Always_50_2(char *t0)
+static void Always_52_2(char *t0)
 {
     char *t1;
     char *t2;
@@ -104,7 +104,7 @@ LAB0:    t1 = (t0 + 4304U);
 
 LAB3:    goto *t2;
 
-LAB2:    xsi_set_current_line(50, ng0);
+LAB2:    xsi_set_current_line(52, ng0);
     t2 = (t0 + 5136);
     *((int *)t2) = 1;
     t3 = (t0 + 4336);
@@ -112,19 +112,19 @@ LAB2:    xsi_set_current_line(50, ng0);
     *((char **)t1) = &&LAB4;
 
 LAB1:    return;
-LAB4:    xsi_set_current_line(50, ng0);
+LAB4:    xsi_set_current_line(52, ng0);
 
-LAB5:    xsi_set_current_line(53, ng0);
+LAB5:    xsi_set_current_line(55, ng0);
     t4 = (t0 + 1848U);
     t5 = *((char **)t4);
     t4 = (t0 + 2888);
     xsi_vlogvar_wait_assign_value(t4, t5, 0, 0, 32, 0LL);
-    xsi_set_current_line(54, ng0);
+    xsi_set_current_line(56, ng0);
     t2 = (t0 + 1528U);
     t3 = *((char **)t2);
     t2 = (t0 + 2568);
     xsi_vlogvar_wait_assign_value(t2, t3, 0, 0, 32, 0LL);
-    xsi_set_current_line(55, ng0);
+    xsi_set_current_line(57, ng0);
     t2 = (t0 + 1688U);
     t3 = *((char **)t2);
     t2 = (t0 + 2728);
@@ -214,7 +214,7 @@ LAB1:    return;
 
 extern void work_m_00000000003655017100_2352116331_init()
 {
-	static char *pe[] = {(void *)Cont_31_0,(void *)Initial_33_1,(void *)Always_50_2,(void *)implSig1_execute,(void *)implSig2_execute};
+	static char *pe[] = {(void *)Cont_31_0,(void *)Initial_33_1,(void *)Always_52_2,(void *)implSig1_execute,(void *)implSig2_execute};
 	xsi_register_didat("work_m_00000000003655017100_2352116331", "isim/top_testhhh_isim_beh.exe.sim/work/m_00000000003655017100_2352116331.didat");
 	xsi_register_executes(pe);
 }

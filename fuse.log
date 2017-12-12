@@ -1,31 +1,32 @@
-Running: F:\ise\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o E:/subjects/2/cpu/liushuixian/top_testhhh_isim_beh.exe -prj E:/subjects/2/cpu/liushuixian/top_testhhh_beh.prj work.top_testhhh work.glbl 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o Y:/Desktop/CA/exp/liushuixian/top_testhhh_isim_beh.exe -prj Y:/Desktop/CA/exp/liushuixian/top_testhhh_beh.prj work.top_testhhh work.glbl 
 ISim P.20131013 (signature 0x7708f090)
-Number of CPUs detected in this system: 8
-Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
 Determining compilation order of HDL files
-Analyzing Verilog file "E:/subjects/2/cpu/liushuixian/adder32/fadder.v" into library work
-Analyzing Verilog file "E:/subjects/2/cpu/liushuixian/adder32/adder_4bit.v" into library work
-Analyzing Verilog file "E:/subjects/2/cpu/liushuixian/mux4to1_32bit.v" into library work
-Analyzing Verilog file "E:/subjects/2/cpu/liushuixian/adder32/adder_32bit.v" into library work
-Analyzing Verilog file "E:/subjects/2/cpu/liushuixian/ALUCtr.v" into library work
-Analyzing Verilog file "E:/subjects/2/cpu/liushuixian/ALU.v" into library work
-Analyzing Verilog file "E:/subjects/2/cpu/liushuixian/mux1_2_5bit.v" into library work
-Analyzing Verilog file "E:/subjects/2/cpu/liushuixian/mux1_2_32bit.v" into library work
-Analyzing Verilog file "E:/subjects/2/cpu/liushuixian/ipcore_dir/memory.v" into library work
-Analyzing Verilog file "E:/subjects/2/cpu/liushuixian/ipcore_dir/instru.v" into library work
-Analyzing Verilog file "E:/subjects/2/cpu/liushuixian/cpudesign/RegFile.v" into library work
-Analyzing Verilog file "E:/subjects/2/cpu/liushuixian/controunit.v" into library work
-Analyzing Verilog file "E:/subjects/2/cpu/liushuixian/ALUwhole.v" into library work
-Analyzing Verilog file "E:/subjects/2/cpu/liushuixian/WB.v" into library work
-Analyzing Verilog file "E:/subjects/2/cpu/liushuixian/MEM.v" into library work
-Analyzing Verilog file "E:/subjects/2/cpu/liushuixian/IF.v" into library work
-Analyzing Verilog file "E:/subjects/2/cpu/liushuixian/ID.v" into library work
-Analyzing Verilog file "E:/subjects/2/cpu/liushuixian/EX.v" into library work
-Analyzing Verilog file "E:/subjects/2/cpu/liushuixian/Top.v" into library work
-Analyzing Verilog file "E:/subjects/2/cpu/liushuixian/top_testhhh.v" into library work
-Analyzing Verilog file "F:/ise/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Analyzing Verilog file "Y:/Desktop/CA/exp/liushuixian/adder32/fadder.v" into library work
+Analyzing Verilog file "Y:/Desktop/CA/exp/liushuixian/adder32/adder_4bit.v" into library work
+Analyzing Verilog file "Y:/Desktop/CA/exp/liushuixian/mux4to1_32bit.v" into library work
+Analyzing Verilog file "Y:/Desktop/CA/exp/liushuixian/adder32/adder_32bit.v" into library work
+Analyzing Verilog file "Y:/Desktop/CA/exp/liushuixian/ALUCtr.v" into library work
+Analyzing Verilog file "Y:/Desktop/CA/exp/liushuixian/ALU.v" into library work
+Analyzing Verilog file "Y:/Desktop/CA/exp/liushuixian/stallctr.v" into library work
+Analyzing Verilog file "Y:/Desktop/CA/exp/liushuixian/mux1_2_5bit.v" into library work
+Analyzing Verilog file "Y:/Desktop/CA/exp/liushuixian/mux1_2_32bit.v" into library work
+Analyzing Verilog file "Y:/Desktop/CA/exp/liushuixian/ipcore_dir/memory.v" into library work
+Analyzing Verilog file "Y:/Desktop/CA/exp/liushuixian/ipcore_dir/instru.v" into library work
+Analyzing Verilog file "Y:/Desktop/CA/exp/liushuixian/cpudesign/RegFile.v" into library work
+Analyzing Verilog file "Y:/Desktop/CA/exp/liushuixian/controunit.v" into library work
+Analyzing Verilog file "Y:/Desktop/CA/exp/liushuixian/ALUwhole.v" into library work
+Analyzing Verilog file "Y:/Desktop/CA/exp/liushuixian/WB.v" into library work
+Analyzing Verilog file "Y:/Desktop/CA/exp/liushuixian/MEM.v" into library work
+Analyzing Verilog file "Y:/Desktop/CA/exp/liushuixian/IF.v" into library work
+Analyzing Verilog file "Y:/Desktop/CA/exp/liushuixian/ID.v" into library work
+Analyzing Verilog file "Y:/Desktop/CA/exp/liushuixian/EX.v" into library work
+Analyzing Verilog file "Y:/Desktop/CA/exp/liushuixian/Top.v" into library work
+Analyzing Verilog file "Y:/Desktop/CA/exp/liushuixian/top_testhhh.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
-WARNING:HDLCompiler:1016 - "E:/subjects/2/cpu/liushuixian/top_testhhh.v" Line 38: Port SEGCLK is not connected to this instance
+WARNING:HDLCompiler:1016 - "Y:/Desktop/CA/exp/liushuixian/top_testhhh.v" Line 38: Port SEGCLK is not connected to this instance
 Completed static elaboration
 Compiling module mux1_2_32bit
 Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
@@ -36,6 +37,7 @@ Compiling module instru
 Compiling module IF
 Compiling module controlunit
 Compiling module RegFile
+Compiling module sctr
 Compiling module ID
 Compiling module fadder
 Compiling module adder_4bit
@@ -55,8 +57,9 @@ Compiling module Top
 Compiling module top_testhhh
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
-Compiled 27 Verilog Units
-Built simulation executable E:/subjects/2/cpu/liushuixian/top_testhhh_isim_beh.exe
-Fuse Memory Usage: 33968 KB
-Fuse CPU Usage: 765 ms
+Waiting for 25 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\top_testhhh_isim_beh.exe.sim\libPortability.dll".
+Compiled 28 Verilog Units
+Built simulation executable Y:/Desktop/CA/exp/liushuixian/top_testhhh_isim_beh.exe
+Fuse Memory Usage: 33504 KB
+Fuse CPU Usage: 999 ms
